@@ -43,7 +43,7 @@ catkin_package(
 # Install
 ################################################################################
 catkin_install_python(PROGRAMS
-  nodes/test_offline
+  src/test_offline
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
